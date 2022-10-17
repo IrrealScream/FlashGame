@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+	<meta charset="UTF-8"/>
+	<title>attrapez les tous</title>
+	<meta name="author" content="your name"/>
+
+	<link rel="stylesheet" type="text/css" href="./style/style.css"/>
+</head>
+
+<body>
+  <h2>Attrapez les &oelig;ufs, mais attention aux fusées</h2>
+<p>
+  Le panier résiste à au plus trois collisions avec une fusée.
+     Chaque &oelig;uf attrapé rapporte 100 points, chaque fusée percutée fait perdre 500 points.
+</p>
+  	<canvas id="playfield" width="1000" height="600" tabindex="1"></canvas>
+
+    <div id="control">
+  	    <button id="stopAndStartGame">Start</button>
+  	    score  : <span id="score"> 0 </span>
+  	</div>
+    <div>
+        <img src="images/rocket128-vertical.png" alt="" id="life-1"/>
+        <img src="images/rocket128-vertical.png" alt="" id="life-2"/>
+        <img src="images/rocket128-vertical.png" alt="" id="life-3"/>
+    </div>
+
+
+</body>
+
+</html>
